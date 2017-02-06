@@ -39,7 +39,6 @@ stages:
   - type: stage
   properties:
   - name: APP_HOSTNAME
-    value: undefined
     type: text
   jobs:
   - name: Deploy
