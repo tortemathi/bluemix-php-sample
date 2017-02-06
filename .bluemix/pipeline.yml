@@ -49,7 +49,7 @@ stages:
       space: ${PROD_SPACE_NAME}
       application: Pipeline
     script: "#!/bin/bash\n\necho \"Install Ansible\"\nsetup_tools/install_ansible.sh\
-      \ \n\necho \"Run Ansible playbook\"\nansible-playbook .playbook.yml\n\n"
+      \ \n\necho \"Run Ansible playbook\"\nansible-playbook .playbook.yml\n\necho \"Ansible playbook complete\"\n"
 hooks:
 - enabled: true
   label: null
