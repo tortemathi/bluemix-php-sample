@@ -16,7 +16,7 @@ sample-repo:
     repo_name: "{{name}}"
     repo_url: https://github.com/adamkingit/bluemix-php-sample
     type: clone
-    has_issues: true
+    has_issues: false
 
 # Pipelines
 sample-build:
