@@ -2,10 +2,9 @@
 stages:
 - name: Build
   inputs:
-  - url: https://github.com/adamkingit/bluemix-php-sample.git
-    type: git
+  - type: git
     branch: master
-    dir_name: null
+    service: ${SAMPLE_REPO}
   triggers:
   - type: commit
   jobs:
