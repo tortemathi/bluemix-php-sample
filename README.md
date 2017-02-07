@@ -1,4 +1,7 @@
-# PHP Starter Overview
+# Bluemix PHP App Sample
+The application repo that accompanies the recipe: [Run Ansible from your IBM Bluemix DevOps Pipelines](https://developer.ibm.com/recipes/tutorials/run-ansible-from-your-ibm-bluemix-devops-pipelines/)
+
+## PHP Starter Overview
 
 The PHP Starter demonstrates a simple, reusable PHP web application.
 
