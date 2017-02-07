@@ -3,7 +3,7 @@ default_locale: en
 name: "Ansible deploy to Bluemix"
 description: "Toolchain to deploy this application to Bluemix using Ansible"
 version: 0.1
-image: data:image/svg+xml;base64,$file(toolchain.svg?base64)
+image: data:image/svg+xml;base64,$file(toolchain.svg,base64)
 icon: data:image/svg+xml;base64,$file(icon.svg,base64)
 required:
  - deploy
