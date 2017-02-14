@@ -14,8 +14,8 @@ sample-repo:
   service_id: githubpublic
   parameters:
     repo_name: "{{name}}"
-    repo_url: https://github.com/adamkingit/bluemix-php-sample
-    type: clone
+    repo_url: https://github.com/IBMCloudDevOps/bluemix-php-sample
+    type: fork
     has_issues: false
 
 # Pipelines
