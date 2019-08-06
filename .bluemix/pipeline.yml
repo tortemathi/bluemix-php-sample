@@ -19,8 +19,8 @@ stages:
       echo "apt-get -qq update"
       sudo apt-get -qq update
 
-      echo "sudo apt-get -qq -y install php5"
-      sudo apt-get -qq -y install php5
+      echo "sudo apt-get -qq -y install php"
+      sudo apt-get -qq -y install php
 
       echo "apt-get -qq clean"
       sudo apt-get -qq clean
