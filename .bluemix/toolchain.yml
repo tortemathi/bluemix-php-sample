@@ -14,7 +14,7 @@ sample-repo:
   parameters:
     repo_name: "{{name}}"
     repo_url: https://github.com/surasiterix/bluemix-php-sample
-    type: fork
+    type: existing
     has_issues: false
 
 # Pipelines
