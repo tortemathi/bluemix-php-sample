@@ -1,16 +1,16 @@
 # Ejecutar playbook de Ansible desde Pipelines de IBM Cloud
----
+
 En este tutorial usaremos un Playbook Ansible ejecutado desde el servicio IBM Cloud Continuous Delivery para implementar una aplicación PHP de muestra. Crearemos automáticamente un delivery pipeline a partir de una tool chain. Luego usaremos Ansible para desplegarla en Cloud Foundry. Ansible Playbooks se pueden usar para entregar aplicaciones simples, como en este hands-on, así como una infraestructura de aplicaciones compleja.
 
 ## Requisitos
----
+
 - Cuenta en [github](https://github.com)
 - Cuenta en [IBM Cloud](https://cloud.ibm.com)
 - Conocimientos básicos de php
 - Conocimientos básicos de shell scripting
 
 ## Setup
----
+
 Para hacer la instalación del entorno de trabajo del taller, debes realizar los siguientes pasos en tu estación de trabajo:
 
 1. Instalar [PHP](http://php.net/downloads.php). Puedes instalar cualquier versión de PHP 5.X.X. o superior
@@ -53,5 +53,5 @@ Press Ctrl-C to quit.
 [![Crear Toolchain](https://console.ng.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.ng.bluemix.net/devops/setup/deploy/?repository=https://github.com/surasiterix/bluemix-php-sample)
 
 ## Agradecimientos
----
+
 Este laboratorio fue adaptado del original (https://github.com/IBMCloudDevOps/bluemix-php-sample) para el IBM Code Day 2019 en Montevideo (https://www.ibm.com/events/uy/es/ibm-code-mvd/montevideo/)
